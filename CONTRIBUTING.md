@@ -23,6 +23,8 @@ easily understood/implement it.
 
 ## Sending a Pull Request
 
+**NOTE: We are currently not accepting new pull requests. Thank you for considering it, we may change this in the future.**
+
 If you're here, you are going to fix a bug or implement a feature and you're the best! To do it, first fork the repository, clone it and create a new branch with the following commands:
 
 ``` bash

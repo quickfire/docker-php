@@ -1,6 +1,8 @@
-# No longer maintained
+# This is forked
 
-I'm backing off maintaining this library due to a lack of motivation, time and usage of docker, contact me on twitter https://twitter.com/joelwurtz if you wish to take over this repository (or just do a fork).
+This was forked from [docker-php/docker-php](https://github.com/docker-php/docker-php) for use within quickfire.
+
+Composer commands won't yet work as this isn't yet published on packagist.
 
 Docker PHP
 ==========
@@ -10,22 +12,13 @@ This library aim to reach 100% API support of the Docker Engine.
 
 The test suite currently passes against Docker Remote API v1.25 to v1.36.
 
-[![Documentation Status](https://readthedocs.org/projects/docker-php/badge/?version=latest)](http://docker-php.readthedocs.org/en/latest/)
-[![Latest Version](https://img.shields.io/github/release/docker-php/docker-php.svg?style=flat-square)](https://github.com/docker-php/docker-php/releases)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build Status](https://img.shields.io/travis/docker-php/docker-php.svg?branch=master&style=flat-square)](https://travis-ci.org/docker-php/docker-php)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/docker-php/docker-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/docker-php/docker-php)
-[![Quality Score](https://img.shields.io/scrutinizer/g/docker-php/docker-php.svg?style=flat-square)](https://scrutinizer-ci.com/g/docker-php/docker-php)
-[![Total Downloads](https://img.shields.io/packagist/dt/docker-php/docker-php.svg?style=flat-square)](https://packagist.org/packages/docker-php/docker-php)
-[![#docker-php on Slack](http://slack.httplug.io/badge.svg)](http://slack.httplug.io)
-
 Installation
 ------------
 
 The recommended way to install Docker PHP is of course to use [Composer](http://getcomposer.org/):
 
 ```bash
-composer require docker-php/docker-php
+composer require quickfire/docker-php
 ```
 
 Docker API Version
@@ -35,13 +28,13 @@ By default it will use the last version of docker api available, if you want to 
 requirement to composer:
 
 ```bash
-composer require "docker-php/docker-php-api:4.1.25.*"
+composer require "quickfire/docker-php-api:4.1.25.*"
 ```
 
 Usage
 -----
 
-See [the documentation](http://docker-php.readthedocs.org/en/latest/).
+See [the documentation](http://docker-php.readthedocs.org/en/latest/) for now. New docs coming soon(tm)
 
 Unit Tests
 ----------
@@ -61,12 +54,14 @@ $ composer test
 Contributing
 ------------
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Currently not accepting new pull requests.
 
 Credits
 -------
 
-This README heavily inspired by [willdurand/Negotiation](https://github.com/willdurand/Negotiation) by @willdurand. This guy is pretty awesome.
+Forked from [docker-php/docker-php](https://github.com/docker-php/docker-php) by quickfire.
+
+This README was originally heavily inspired by [willdurand/Negotiation](https://github.com/willdurand/Negotiation) by @willdurand. This guy is pretty awesome.
 
 License
 -------
